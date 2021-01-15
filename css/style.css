@@ -1,0 +1,89 @@
+/* Header */
+header {
+    width: 900px;
+   margin: 30px;    
+}
+header img {
+    left: 44%;
+}
+
+nav {
+    position: absolute;
+    /* float: right; */
+    text-align: center;
+    top: 3%;
+    right: 20%;
+
+}
+li {
+   
+    text-align: center;
+    display: inline-block;
+    border: 100%;
+    padding: 33px;
+    margin: 20;
+    text-decoration: solid;
+   
+}
+
+/* Main */
+
+body{
+     width: 900px;
+     margin: auto;
+}
+main {
+    background-color:#fff3e6";
+}
+main>img{
+
+    display: block;
+    margin: 30px;
+    width: 100%;
+}
+
+main> section{
+   display:block;
+   margin: 30px;
+   width: 200%;
+}
+
+section :nth-child(4){
+    display:inline-block;
+    margin: 30px;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: 250%;
+}
+ section div{
+    
+    display: inline-block;
+    border: 100%;
+    padding: 33px;
+    margin: 30px;
+    text-align: left;
+    top:160%;
+    right:70%;
+    /* width: 50%; */
+   
+    overflow-y: scroll;
+} 
+section button:hover {
+    
+    background: #ddd;
+    padding:50px;
+    font-size: 11px;
+    position:absolute;
+    right:70% ;
+    top:268% ;
+}
+
+
+/* Footer */
+footer{
+  width: 900px;
+    margin: 30px;    
+    text-align: center;
+    background: #ddd;
+}
